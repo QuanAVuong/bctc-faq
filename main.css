@@ -26,7 +26,7 @@ body {
   border: 1px solid cyan;
 }
 
-/*.box1 { border: 1px solid cyan;}
+.box1 { justify-content: center; align-content: center;}
 .box2 { border: 1px solid cyan;}
 .box3 { border: 1px solid cyan;}
 .box4 { border: 1px solid cyan;}
@@ -35,9 +35,10 @@ body {
 .box7 { border: 1px solid cyan;}
 .box8 { border: 1px solid cyan;}
 .box9 { border: 1px solid cyan;}
-.box10 { border: 1px solid cyan;}*/
+.box10 { border: 1px solid cyan;}
 
 a {
+  display: flex;
   text-decoration: none;
 }
 
