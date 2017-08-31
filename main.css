@@ -26,20 +26,15 @@ body {
   border: 1px solid cyan;
 }
 
-.box1 { justify-content: center; align-content: center;}
-.box2 { border: 1px solid cyan;}
-.box3 { border: 1px solid cyan;}
-.box4 { border: 1px solid cyan;}
-.box5 { border: 1px solid cyan;}
-.box6 { border: 1px solid cyan;}
-.box7 { border: 1px solid cyan;}
-.box8 { border: 1px solid cyan;}
-.box9 { border: 1px solid cyan;}
-.box10 { border: 1px solid cyan;}
+/*.box1 { justify-content: center; align-content: center;}*/
 
 a {
   display: flex;
   text-decoration: none;
+}
+
+a:hover { 
+    background-color: red;
 }
 
 
