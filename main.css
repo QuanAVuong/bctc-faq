@@ -29,6 +29,7 @@ body {
 /*.box1 { justify-content: center; align-content: center;}*/
 
 a {
+  -js-display: flex;
   display: flex;
   text-decoration: none;
 }
@@ -44,6 +45,7 @@ a {
 .container {
   /*border:10px solid lime;*/
   height:100vh;
+  -js-display: flex;
   display:flex;
   flex-wrap:wrap;
   flex-direction:column;
