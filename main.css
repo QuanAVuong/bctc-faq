@@ -23,7 +23,7 @@ body {
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
-  border: 1px solid cyan;
+  /*border: 1px solid cyan;*/
 }
 
 /*.box1 { justify-content: center; align-content: center;}*/
@@ -33,14 +33,16 @@ a {
   text-decoration: none;
 }
 
-.box:hover { 
-    border: 5px solid orange;
+.box:hover, box:focus { 
+  background: #f89828;
+  color: darkblue;
+  transition: all 0.3s ease 0s;
 }
 
 
 /* Flex */
 .container {
-  border:10px solid lime;
+  /*border:10px solid lime;*/
   height:100vh;
   display:flex;
   flex-wrap:wrap;
